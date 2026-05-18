@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "from_frontend_masters/claude_code/Introduction to Claude code.md",
+                "file": "from_youtube/The Secret of Concentration.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Introduction to Claude code"
+              "title": "The Secret of Concentration"
             }
           }
         ]
@@ -78,7 +78,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "50468854179b527e",
@@ -182,8 +183,11 @@
   },
   "active": "641e1e03abc0016a",
   "lastOpenFiles": [
-    "from_frontend_masters/senior_level_frontend_interview/Accordion Question.md",
+    "from_frontend_masters/senior_level_frontend_interview/Star Rating Questions.md",
+    "from_youtube/The Secret of Concentration.md",
+    "from_youtube",
     "from_frontend_masters/claude_code/Introduction to Claude code.md",
+    "from_frontend_masters/senior_level_frontend_interview/Accordion Question.md",
     "Data_intensive_book/Chapter 3/2026-05-17.md",
     "from_frontend_masters/claude_code",
     "Data_intensive_book/Chapter 3",
