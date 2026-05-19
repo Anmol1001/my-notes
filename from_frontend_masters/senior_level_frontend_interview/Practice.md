@@ -1,0 +1,2 @@
+**What do you mean by URL, url.searchparams.set and window.history.replaceState mean?**
+	Url is the object that we can get related to the url. And with url.searchparams.set will give us ability to set the property in that url. And window.history.replaceState will update the url in the address bar of the browser.
