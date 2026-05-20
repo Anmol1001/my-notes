@@ -78,8 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "50468854179b527e",
@@ -183,12 +182,15 @@
   },
   "active": "641e1e03abc0016a",
   "lastOpenFiles": [
-    "from_frontend_masters/senior_level_frontend_interview/Star Rating Questions.md",
+    "from_frontend_masters/senior_level_frontend_interview/Typescript.md",
+    "from_frontend_masters/senior_level_frontend_interview/Dialog.md",
+    "from_frontend_masters/claude_code/Introduction to Claude code.md",
+    "Untitled.base",
     "from_frontend_masters/senior_level_frontend_interview/Practice.md",
+    "from_frontend_masters/senior_level_frontend_interview/Star Rating Questions.md",
     "from_frontend_masters/senior_level_frontend_interview/Accordion Question.md",
     "from_youtube/The Secret of Concentration.md",
     "from_youtube",
-    "from_frontend_masters/claude_code/Introduction to Claude code.md",
     "Data_intensive_book/Chapter 3/2026-05-17.md",
     "from_frontend_masters/claude_code",
     "Data_intensive_book/Chapter 3",
