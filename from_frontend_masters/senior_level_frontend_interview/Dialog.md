@@ -1,0 +1,1 @@
+*When it comes to implementing dialog box also consider implementing `<dialog>` element of html because it already has the accessibility functionality like focus management of the buttons , closes when esc key is press*

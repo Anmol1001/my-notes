@@ -11,3 +11,15 @@
 **In the following code, what does the `infer` keyword accomplish?**
 `T extends [infer First, ...infer Tail]`
 	The `infer` keyword allows you to extract and reference types from a structure. In this case, it extracts the type of the first element as `First` and the remaining elements as `Tail`, enabling you to recursively process array/tuple types element by element.
+**type LookUp<T extends {type: string}, U> = T extends {type: U} ? T : never**
+	*Confusion 1 — `T extends {type: string}` but we pass whole object*
+		`extends` here is a **constraint**, not saying T must be exactly `{type: string}`.
+		It means: "T must have AT LEAST a `type` property that is a string."
+	*Confusion 2 — how does it actually filter?*
+		Remember — when `T` is a union, TypeScript **distributes automatically**:
+		LookUp<Cat | Dog, 'dog'>,
+		// TypeScript checks each member separately:
+		Cat extends {type: 'dog'} ? Cat : never
+		→ Cat has type: 'cat', not 'dog' → never
+		Dog extends {type: 'dog'} ? Dog : never
+		→ Dog has type: 'dog' ✅ → Dog
